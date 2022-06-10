@@ -13,14 +13,8 @@ public class Homework1 {
         System.out.println("Задача №5:\n" + "(a+b)^2 =" + task5() + "\n");
         System.out.println("Задача №6:\n" + Arrays.toString(task6()) + "\n");
         System.out.println("Задача №7:\n" + task7());
-
-
-
-
-
-
-
     }
+
     // Базовый уровень
     // Задача №1
     private static String task1() {
@@ -93,6 +87,4 @@ public class Homework1 {
         String strRepl = str.replaceAll("l", "r").toUpperCase();
         return(strRepl.substring(0,7));
     }
-
-
 }
