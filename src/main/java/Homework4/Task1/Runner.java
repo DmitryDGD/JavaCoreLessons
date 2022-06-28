@@ -9,7 +9,9 @@ public class Runner {
     public static void main(String[] args) {
 
         Spruce spruce = new Spruce("Ель");
+        spruce.setHasCones(true);
         Pine pine = new Pine("Сосна");
+        pine.setHasCones(true);
         Rose rose = new Rose("Роза");
         Fern fern = new Fern("Папоротник");
 
@@ -32,7 +34,6 @@ public class Runner {
                 plants.doBloom(plants.getName());
             }
         }
-
 
     }
 }

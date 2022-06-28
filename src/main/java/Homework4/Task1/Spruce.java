@@ -9,6 +9,8 @@ public class Spruce extends Trees {
         super(name);
     }
 
+
+
     @Override
     public void doSmell(String name) {
         System.out.println(name + ": " + "умеет пахнуть");
