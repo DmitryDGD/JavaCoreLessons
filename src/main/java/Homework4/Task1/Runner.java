@@ -8,10 +8,8 @@ import Homework4.Task1.DataClass.Trees;
 public class Runner {
     public static void main(String[] args) {
 
-        Spruce spruce = new Spruce("Ель");
-        spruce.setHasCones(true);
-        Pine pine = new Pine("Сосна");
-        pine.setHasCones(true);
+        Spruce spruce = new Spruce("Ель", true);
+        Pine pine = new Pine("Сосна", true);
         Rose rose = new Rose("Роза");
         Fern fern = new Fern("Папоротник");
 

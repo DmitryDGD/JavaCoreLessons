@@ -4,8 +4,8 @@ import Homework4.Task1.DataClass.Trees;
 
 public class Pine extends Trees {
 
-    public Pine(String name) {
-        super(name);
+    public Pine(String name, boolean hasCones) {
+        super(name, hasCones);
     }
 
     @Override
